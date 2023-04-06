@@ -1,2 +1,1 @@
-bot: python3 bot.py
-web: gunicorn vz4ward:bot.py
+web: python3 bot.py
