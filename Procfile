@@ -1,2 +1,2 @@
 bot: python3 bot.py
-web: gunicorn gettingstarted.wsgi
+web: python3 bot.py runserver 0.0.0.0:5000
